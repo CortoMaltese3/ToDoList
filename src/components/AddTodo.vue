@@ -27,6 +27,9 @@ export default {
             }
             // Send up to parent
             this.$emit('add-todo', newTodo);
+
+            //Clears the form
+            this.title='';
         }
     }
 }
